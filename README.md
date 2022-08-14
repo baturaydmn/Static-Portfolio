@@ -7,4 +7,4 @@
 
 Aşağıda örnek görsel bulunuyor
 
-![image](https://cdn.discordapp.com/attachments/957300238010433546/971466887085047818/unknown.png)
+![image](https://cdn.discordapp.com/attachments/1003749068142551050/1008384525509865472/sitepreview.png)
