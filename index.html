@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Wandal</title>
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<title>Wandal</title>
+<meta name="title" content="Wandal">
+<meta name="description" content="Developer">
+
+
+</head>
+<body>
+<div id="loading">
+<div id="spinner"></div>
+</div>
+<div id="particles-js"></div>
+<div id="box">
+<div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+<div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+<div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+<div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+<div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+<div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+</div>
+<a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">Hakkımda</a>
+<a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Projelerim</a>
+<a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">İletişim</a>
+<div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+<h1>Wandal</h1>
+<h3>HTML / CSS / JS / C# / Py / C</h3>
+<div id="menu">
+<a onclick="showabout()">Hakkımda</a>
+<a onclick="showwork()">Projelerim</a>
+<a onclick="showcontact()">İletişim</a>
+</div>
+<table>
+<tr>
+<td class="animated zoomIn" style="animation-delay:2.2s;"><a href="#" class="social"><i class="fab fa-github"></i></a></td>
+<td class="animated zoomIn" style="animation-delay:2.4s;"><a href="#" class="social"><i class="fab fa-instagram"></i></a></td>
+
+<td class="animated zoomIn" style="animation-delay:2.8s;"><a href="#" class="social"><i class="fab fa-discord"></i></a></td>
+<td class="animated zoomIn" style="animation-delay:3.0s;"><a href="#" class="social"><i class="fas fa-envelope"></i></a></td>
+</tr>
+</table>
+</div>
+<div id="work_container" class="container">
+<div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+<h1>Projelerim</h1>
+<section>
+<h2></h2>
+<p>
+<h3><a>Water</a></h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem at massa pellentesque, eget aliquam metus ullamcorper. 
+<br>Sunucunuza eklemek için <a href="#">tıklayın.</a>
+<br><br>
+<h3><a>Water Code</a></h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem at massa pellentesque, eget aliquam metus ullamcorper. 
+<br>
+Siteye gitmek için <a href="#">tıklayın.</a>
+<br>
+Sunucuya gitmek için <a href="#">tıklayın.</a>
+
+<br>
+</p>
+İletişim için <text class="notunderlinedlink" onclick="showcontact(); closework();">tıklayın.</text>
+<br>
+⁣
+<br>
+</section>
+</div>
+<div id="about_container" class="container">
+<div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+<h1>Hakkımda</h1>
+<section>
+<h2></h2>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem at massa pellentesque, eget aliquam metus ullamcorper. 
+</p>
+<p>
+In lacinia purus id ex scelerisque aliquam. Sed viverra urna lobortis, pretium lorem nec, ultricies mi. Phasellus ultrices diam ut fermentum lacinia. Praesent lacinia metus ut iaculis euismod.
+</p>
+<br>
+<h2>
+Lorem İpsum bilmem ne a
+</h2>
+<p>
+<br>
+<a>Link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem at massa pellentesque, eget aliquam metus ullamcorper. 
+<br>
+Lorem <a>Link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus sem at massa pellentesque, eget aliquam metus ullamcorper. 
+</p>
+<br>
+</section>
+<section>
+<h2>
+Aşağıdaki dilleri biliyorum
+</h2>
+<div id="used">
+<div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+<div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+<div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+<div><i class="fas fa-circle"></i>&nbsp;C#</div>
+<div><i class="fas fa-circle"></i>&nbsp;C</div>
+<div><i class="fas fa-circle"></i>&nbsp;Pyhton</div>
+</div>
+</section>
+<section>
+<h2>Sunucularım</h2>
+<p>
+<a href="#">Name1</a> - Kurucu <br>
+<a href="#">Name2</a> - Yönetici <br>
+</p>
+</section>
+</div>
+<div id="contact_container" class="container">
+<div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+<h1>İletişim</h1>
+ <section>
+<h2>Benimle iletişime geçmek isterseniz:</h2>
+<p>
+Discord: <a href="#"><b>Wandal</b></a>
+<br>
+E-Posta: <a href="#"><b><span class="__cf_email__" data-cfemail="e380828d8c9a97d3d3a3848e828a8fcd808c8e">[email&#160;protected]</span></b></a>
+</p>
+</section>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js" type="text/javascript"></script>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
