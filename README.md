@@ -3,7 +3,7 @@
 <h1>Selamlar 👋</h1>
 Öncelikle merhaba, . Sitemizde herşeyi zaten değiştirebilirsiniz. Sadece izinsiz githubunuzda paylaşmayın yeter^^
 
-<a href="https://sitedemo1.wandal.tech"
+<a href="https://sitedemo1.wandal.tech">Live Demo</a>
 
 Aşağıda örnek görsel bulunuyor
 
